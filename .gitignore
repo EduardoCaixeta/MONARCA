@@ -1,0 +1,37 @@
+# Ignora ambiente virtual
+.env/
+env/
+venv/
+ENV/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Banco de dados SQLite
+*.sqlite3
+*.db
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Jupyter notebooks checkpoints
