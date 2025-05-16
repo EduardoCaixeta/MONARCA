@@ -15,7 +15,7 @@ client.on('messageCreate', async (message) => {
   const content = message.content.toLowerCase();
 
   if (content === '!liberar guerra') {
-    const channel = message.guild.channels.cache.find(c => c.name === 'guerra');
+    const channel = message.guild.channels.cache.find(c => c.name === '⚔guerra');
     if (!channel) return message.reply('Canal #guerra não encontrado.');
 
     await channel.permissionOverwrites.edit(message.guild.roles.everyone, {
@@ -26,7 +26,7 @@ client.on('messageCreate', async (message) => {
   }
 
   if (content === '!fechar guerra') {
-    const channel = message.guild.channels.cache.find(c => c.name === 'guerra');
+    const channel = message.guild.channels.cache.find(c => c.name === '⚔guerra');
     if (!channel) return message.reply('Canal #guerra não encontrado.');
 
     await channel.permissionOverwrites.edit(message.guild.roles.everyone, {
